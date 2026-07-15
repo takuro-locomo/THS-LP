@@ -1,0 +1,173 @@
+/* =========================================================
+   トータルHipサポーター LP2（医療機関向け）
+   モバイルファースト / データ・運用性中心のトーン
+   ブレークポイント: 768px / 1200px
+========================================================= */
+:root{
+  --c-text:#26313c;
+  --c-text-sub:#57697a;
+  --c-navy:#16324a;
+  --c-navy-2:#1e4a6b;
+  --c-blue:#1e6fa8;
+  --c-blue-pale:#eaf2f8;
+  --c-accent:#0e7d6d;
+  --c-bg:#ffffff;
+  --c-bg-soft:#f4f8fb;
+  --c-line:#d5e0e9;
+  --font-body:"Noto Sans JP",sans-serif;
+  --font-head:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body.lp2{font-family:var(--font-body);font-size:16px;line-height:1.85;color:var(--c-text);background:var(--c-bg);-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--c-blue)}
+.container{width:100%;max-width:1100px;margin:0 auto;padding:0 20px}
+
+/* ---------- ヘッダー ---------- */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);border-bottom:1px solid var(--c-line)}
+.header-inner{display:flex;align-items:center;gap:14px;padding:10px 20px;max-width:1100px;margin:0 auto}
+.header-brand{font-family:var(--font-head);font-weight:900;font-size:15px;line-height:1.3;flex:1}
+.header-tag{display:inline-block;font-size:11px;font-weight:500;color:#fff;background:var(--c-navy);border-radius:4px;padding:1px 8px;margin-left:6px;vertical-align:2px}
+.header-links{display:none;gap:18px;font-size:14px}
+.header-links a{color:var(--c-text);text-decoration:none;font-weight:500}
+.header-links a:hover{color:var(--c-blue)}
+
+/* ---------- ボタン ---------- */
+.btn{display:inline-block;text-decoration:none;text-align:center;font-weight:700;border-radius:8px;transition:opacity .15s, box-shadow .15s}
+.btn:hover{opacity:.92}
+.btn-cta{background:var(--c-blue);color:#fff;font-size:16px;padding:14px 26px;min-height:48px;box-shadow:0 3px 10px rgba(30,111,168,.3)}
+.btn-lg{font-size:18px;padding:17px 40px}
+.btn-header{font-size:13px;padding:10px 14px;white-space:nowrap}
+.btn-ghost{background:#fff;color:var(--c-navy);border:2px solid var(--c-navy);padding:12px 24px;font-size:15px}
+
+/* ---------- FV ---------- */
+.fv{background:linear-gradient(150deg,var(--c-navy) 0%,var(--c-navy-2) 60%,#28648c 100%);color:#fff;padding:48px 0 56px}
+.fv-inner{display:flex;flex-direction:column;gap:30px}
+.fv-eyebrow{font-size:14px;letter-spacing:.08em;color:#a8cbe2;font-weight:700}
+.fv-catch{font-family:var(--font-head);font-weight:900;font-size:clamp(30px,7.4vw,50px);line-height:1.35;margin:10px 0 16px}
+.fv-sub{font-size:16px;color:#e3edf5;max-width:640px}
+.fv-points{list-style:none;margin-top:18px}
+.fv-points li{position:relative;padding-left:26px;margin-bottom:8px;font-size:15px;color:#fff}
+.fv-points li::before{content:"";position:absolute;left:0;top:9px;width:14px;height:8px;border-left:3px solid #7fd6ff;border-bottom:3px solid #7fd6ff;transform:rotate(-45deg)}
+.fv-points sup{color:#a8cbe2}
+.fv-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.fv-note{font-size:12px;color:#a8cbe2;margin-top:14px}
+.fv-note a{color:#cfe7f7}
+.fv-figure{background:#fff;border-radius:12px;padding:18px;max-width:420px;box-shadow:0 12px 32px rgba(0,20,40,.35)}
+.fv-figure figcaption{font-size:12px;color:var(--c-text-sub);text-align:center;margin-top:8px}
+
+/* ---------- セクション共通 ---------- */
+.section{padding:56px 0}
+.section-title{font-family:var(--font-head);font-weight:900;font-size:clamp(23px,5.6vw,32px);line-height:1.4;margin-bottom:22px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.section-title .num{font-size:14px;color:#fff;background:var(--c-navy);border-radius:6px;padding:3px 10px;letter-spacing:.06em}
+.note{font-size:12px;color:var(--c-text-sub);margin-top:14px}
+
+/* ---------- 臨床背景 ---------- */
+.issue-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:20px}
+.issue-card{background:var(--c-bg-soft);border:1px solid var(--c-line);border-radius:10px;padding:20px 18px}
+.issue-card h3{font-family:var(--font-head);font-size:17px;color:var(--c-navy);margin-bottom:8px}
+.issue-card p{font-size:14.5px}
+
+/* ---------- コンセプト ---------- */
+.concept{background:var(--c-bg-soft)}
+.concept-grid{display:flex;flex-direction:column;gap:26px}
+.spec-list{list-style:none;margin-top:14px}
+.spec-list li{position:relative;padding:10px 0 10px 24px;border-bottom:1px dashed var(--c-line);font-size:15px}
+.spec-list li::before{content:"◆";position:absolute;left:0;top:10px;color:var(--c-blue);font-size:12px}
+.concept-visual{display:flex;flex-direction:column;gap:16px;align-items:center}
+.pressure-svg{width:100%;max-width:300px}
+.product-placeholder{width:100%;max-width:300px}
+.placeholder-box{min-height:170px;border:2px dashed #9eb4c6;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#6b8299;font-size:14px;background:repeating-linear-gradient(45deg,#f0f5f9,#f0f5f9 12px,#e9f0f6 12px,#e9f0f6 24px)}
+
+/* ---------- エビデンス ---------- */
+.study-design{margin-bottom:24px}
+.study-design h3, .result-card h3, .limitations h3, .survey h3{font-family:var(--font-head);font-size:17px;color:var(--c-navy);margin-bottom:10px}
+.design-table{width:100%;border-collapse:collapse;background:#fff}
+.design-table th,.design-table td{border:1px solid var(--c-line);padding:10px 14px;font-size:14.5px;text-align:left}
+.design-table th{background:var(--c-blue-pale);color:var(--c-navy);width:34%;font-weight:700}
+.result-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:20px}
+.result-card{background:#fff;border:1px solid var(--c-line);border-top:4px solid var(--c-blue);border-radius:10px;padding:20px 18px;box-shadow:0 2px 8px rgba(20,50,74,.06)}
+.result-card svg{width:100%;max-width:340px;margin:6px 0}
+.result-card p{font-size:14.5px}
+.limitations{background:#fbf6ee;border:1px solid #e8d9bd;border-radius:10px;padding:18px;margin-bottom:16px}
+.limitations p{font-size:14px}
+.survey{background:var(--c-bg-soft);border-radius:10px;padding:18px}
+.survey p{font-size:14.5px}
+
+/* ---------- 装着手順 ---------- */
+.donning{background:var(--c-bg-soft)}
+.donning-lead{margin-bottom:24px}
+.donning-steps{list-style:none;display:grid;grid-template-columns:1fr;gap:16px;counter-reset:step}
+.step-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 10px rgba(20,50,74,.08)}
+.step-card img{width:100%;aspect-ratio:1/1;object-fit:cover;background:#eef4f9}
+.step-card h3{font-family:var(--font-head);font-size:17px;color:var(--c-navy);padding:14px 16px 4px}
+.step-card h3 span{display:inline-block;font-size:12px;color:#fff;background:var(--c-blue);border-radius:4px;padding:2px 8px;margin-right:8px;vertical-align:2px}
+.step-card p{font-size:14px;padding:0 16px 16px}
+.donning-notes{background:#fff;border:1px solid var(--c-line);border-radius:12px;padding:22px 20px;margin-top:22px}
+.donning-notes h3{font-family:var(--font-head);font-size:16px;color:var(--c-navy);margin-bottom:10px}
+.donning-notes ul{list-style:none}
+.donning-notes li{position:relative;padding-left:20px;margin-bottom:7px;font-size:14.5px}
+.donning-notes li::before{content:"・";position:absolute;left:2px;color:var(--c-blue);font-weight:700}
+
+/* ---------- 病棟運用 ---------- */
+.op-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:22px}
+.op-card{background:var(--c-bg-soft);border-left:4px solid var(--c-accent);border-radius:8px;padding:18px}
+.op-card h3{font-family:var(--font-head);font-size:16px;color:var(--c-navy);margin-bottom:6px}
+.op-card p{font-size:14.5px}
+.ward-visual{border-radius:12px;overflow:hidden;max-width:640px;margin:0 auto}
+
+/* ---------- 導入の流れ ---------- */
+.order{background:var(--c-bg-soft)}
+.flow{list-style:none;display:flex;flex-direction:column;gap:0}
+.flow li{display:flex;gap:16px;background:#fff;border:1px solid var(--c-line);border-radius:10px;padding:20px 18px;position:relative;margin-bottom:26px}
+.flow li:not(:last-child)::after{content:"";position:absolute;left:50%;bottom:-22px;width:2px;height:18px;background:var(--c-blue)}
+.flow-num{flex-shrink:0;width:40px;height:40px;border-radius:50%;background:var(--c-navy);color:#fff;font-family:var(--font-head);font-weight:900;font-size:18px;display:flex;align-items:center;justify-content:center}
+.flow h3{font-family:var(--font-head);font-size:16.5px;color:var(--c-navy);margin-bottom:6px}
+.flow p{font-size:14.5px}
+.order-cta{text-align:center;margin-top:26px}
+.contact-box{background:#fff;border:1px solid var(--c-line);border-radius:10px;padding:18px;margin-top:20px;font-size:14.5px;text-align:left;max-width:560px;margin-left:auto;margin-right:auto}
+.contact-box p:first-child{margin-bottom:6px}
+
+/* ---------- FAQ ---------- */
+.faq-list{max-width:860px}
+.faq-item{border:1px solid var(--c-line);border-radius:10px;margin-bottom:10px;overflow:hidden;background:#fff}
+.faq-item dt{position:relative;font-weight:700;font-size:15.5px;padding:15px 44px 15px 46px;cursor:pointer;user-select:none}
+.faq-item dt::before{content:"Q";position:absolute;left:14px;top:14px;width:24px;height:24px;border-radius:5px;background:var(--c-navy);color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center}
+.faq-item dt::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:22px;color:var(--c-blue)}
+.faq-item.open dt::after{content:"−"}
+.faq-item dd{display:none;padding:0 20px 16px 46px;font-size:14.5px}
+.faq-item.open dd{display:block}
+
+/* ---------- フッター ---------- */
+.site-footer{background:var(--c-navy);color:#c2d3e0;padding:36px 0 110px;font-size:12.5px;line-height:1.8}
+.footer-disclaimer{border:1px solid #3d5a73;border-radius:8px;padding:14px 16px;margin-bottom:16px}
+.site-footer a{color:#9fc6e2}
+
+/* ---------- 追従CTA ---------- */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:200;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);box-shadow:0 -4px 16px rgba(0,0,0,.14);transform:translateY(110%);transition:transform .3s ease}
+.sticky-cta.visible{transform:translateY(0)}
+.sticky-cta .btn{display:block;width:100%;font-size:16px;padding:14px 10px}
+
+/* =========== 768px以上 =========== */
+@media (min-width:768px){
+  .header-links{display:flex}
+  .fv-inner{flex-direction:row;align-items:center}
+  .fv-text{flex:1.3}
+  .fv-figure{flex:1}
+  .issue-grid{grid-template-columns:repeat(3,1fr)}
+  .concept-grid{flex-direction:row}
+  .concept-text{flex:1.3}
+  .concept-visual{flex:1}
+  .result-grid{grid-template-columns:1fr 1fr}
+  .donning-steps{grid-template-columns:repeat(2,1fr)}
+  .op-grid{grid-template-columns:repeat(3,1fr)}
+  .flow li:not(:last-child)::after{left:38px}
+  .sticky-cta{display:none}
+  .site-footer{padding-bottom:36px}
+}
+/* =========== 1200px以上 =========== */
+@media (min-width:1200px){
+  .section{padding:76px 0}
+  .donning-steps{grid-template-columns:repeat(4,1fr)}
+}
