@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>トータルHipサポーター｜整形外科専門医 上野琢郎が開発した「履く」股関節・骨盤サポーター</title>
+<meta name="description" content="股関節の手術前後、産後の骨盤まわり、シニアの歩行サポートに。整形外科専門医 上野琢郎が開発した、履くタイプの股関節・骨盤着圧サポーター。3段階の圧迫設計・カテーテル開口部付き・男女兼用。">
+<style>
+:root{
+  --blue:#2d7fb8; --blue-d:#1f5f8b; --sky:#eaf4fb; --sky2:#d6e9f5;
+  --ink:#2a3038; --ink-2:#5b6673; --line:#e3e8ee; --bg:#ffffff; --cream:#faf8f4;
+  --accent:#e8743f; --ok:#3a9d6b;
+  --maxw:1040px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.8;font-size:16px;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:var(--blue)}
+h1,h2,h3{line-height:1.35;margin:0 0 .5em;font-weight:700}
+h2{font-size:clamp(22px,3.4vw,30px);text-align:center}
+h2 small{display:block;font-size:12px;letter-spacing:.2em;color:var(--blue);margin-bottom:8px;font-weight:600}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+section.alt{background:var(--sky)}
+section.cream{background:var(--cream)}
+.lead{text-align:center;color:var(--ink-2);max-width:720px;margin:0 auto 36px}
+.btn{display:inline-block;background:var(--accent);color:#fff;font-weight:700;padding:16px 28px;border-radius:999px;text-decoration:none;box-shadow:0 6px 18px rgba(232,116,63,.3);transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.sub{background:#fff;color:var(--blue-d);border:2px solid var(--blue);box-shadow:none}
+.note{font-size:12.5px;color:var(--ink-2)}
+.tag{display:inline-block;background:var(--blue);color:#fff;font-size:12px;padding:3px 10px;border-radius:4px;letter-spacing:.08em}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;color:var(--blue-d);letter-spacing:.02em;text-decoration:none;font-size:17px}
+.logo span{color:var(--blue);font-size:12px;display:block;letter-spacing:.2em;font-weight:600}
+header nav a{font-size:13px;color:var(--ink-2);text-decoration:none;margin-left:18px}
+header .btn{padding:10px 18px;font-size:14px}
+@media(max-width:720px){header nav{display:none}}
+/* hero */
+.hero{background:linear-gradient(180deg,var(--sky) 0%,#fff 100%);padding:48px 0 56px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}
+.hero h1{font-size:clamp(28px,4.6vw,44px);letter-spacing:.01em}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero .kicker{color:var(--blue-d);font-weight:700;margin-bottom:12px;font-size:15px}
+.hero p.sub{color:var(--ink-2);font-size:17px;margin:14px 0 22px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.hero .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.hero .badges span{background:#fff;border:1px solid var(--sky2);border-radius:999px;padding:6px 14px;font-size:13px;color:var(--blue-d);font-weight:600}
+.hero figure{margin:0;background:#fff;border-radius:24px;padding:24px;box-shadow:0 20px 50px rgba(45,127,184,.15)}
+.hero figure img{border-radius:16px}
+.hero figcaption{text-align:center;font-size:13px;color:var(--ink-2);margin-top:12px}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}.hero figure{max-width:420px;margin:0 auto}}
+/* grids */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.grid4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:720px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 22px}
+.card .num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800;font-size:18px;margin-bottom:12px}
+.card h3{font-size:19px}
+.card p{margin:0;color:var(--ink-2);font-size:15px}
+/* use cases */
+.use{background:#fff;border-radius:16px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column}
+.use .head{background:var(--blue-d);color:#fff;padding:14px 18px;font-weight:700;font-size:16px}
+.use .body{padding:18px;flex:1}
+.use .body p{margin:0 0 10px;font-size:14.5px;color:var(--ink-2)}
+.use ul{margin:0;padding-left:18px;font-size:14px}
+.use .foot{padding:0 18px 18px}
+.use .foot a{font-size:14px;font-weight:700}
+/* compare */
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}
+th,td{padding:14px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:14.5px;vertical-align:top}
+th{background:var(--sky);font-weight:700}
+thead th{background:var(--blue-d);color:#fff}
+.cmp td:nth-child(3){background:#f3fbf6}
+.x{color:#b8524f;font-weight:700}
+.o{color:var(--ok);font-weight:700}
+/* pressure */
+.pressure{display:grid;grid-template-columns:320px 1fr;gap:32px;align-items:center}
+@media(max-width:820px){.pressure{grid-template-columns:1fr}}
+.pressure .zones{position:relative}
+.zone{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:12px;background:#fff;border:1px solid var(--line);margin-bottom:10px}
+.zone b{display:inline-flex;width:40px;height:40px;border-radius:50%;align-items:center;justify-content:center;color:#fff;font-size:15px;flex:none}
+.zone.w b{background:#9cc7e3}.zone.m b{background:#5ea4d2}.zone.s b{background:var(--blue-d)}
+.zone span{font-size:14.5px}
+/* voices */
+.voice{background:#fff;border-radius:16px;padding:22px;border:1px solid var(--line);position:relative}
+.voice p{margin:0 0 10px;font-size:15px}
+.voice .who{font-size:13px;color:var(--ink-2)}
+.voice:before{content:"“";position:absolute;top:6px;left:14px;font-size:48px;color:var(--sky2);font-family:Georgia,serif;line-height:1}
+/* story */
+.story{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+@media(max-width:820px){.story{grid-template-columns:1fr}}
+.story .box{background:#fff;border-left:6px solid var(--blue);padding:22px 24px;border-radius:8px}
+.story .box p{margin:0 0 10px;font-size:15px}
+/* size */
+.sizebox{background:#fff;border-radius:16px;padding:24px;border:1px solid var(--line)}
+.sizebox table th,.sizebox table td{text-align:center}
+.callout{background:#fff7f1;border:1px solid #f3d3c2;border-radius:12px;padding:16px 18px;font-size:14.5px;margin-top:16px}
+.callout b{color:var(--accent)}
+/* faq */
+details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:0 20px;margin-bottom:10px}
+summary{cursor:pointer;padding:16px 0;font-weight:700;list-style:none;display:flex;gap:12px;align-items:flex-start}
+summary::-webkit-details-marker{display:none}
+summary:before{content:"Q";flex:none;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:14px;margin-top:2px}
+details p{margin:0 0 16px 40px;color:var(--ink-2);font-size:15px}
+/* steps */
+.steps{counter-reset:s}
+.step{display:flex;gap:16px;background:#fff;border-radius:12px;padding:16px 18px;border:1px solid var(--line);margin-bottom:10px}
+.step:before{counter-increment:s;content:counter(s);flex:none;width:34px;height:34px;border-radius:50%;background:var(--blue-d);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:800}
+.step div{font-size:15px}
+.step b{display:block;margin-bottom:2px}
+/* caution */
+.caution{columns:2;column-gap:32px;font-size:13.5px;color:var(--ink-2)}
+@media(max-width:720px){.caution{columns:1}}
+.caution ul{margin:0 0 12px;padding-left:18px}
+/* cta band */
+.ctaband{background:linear-gradient(135deg,var(--blue-d),var(--blue));color:#fff;text-align:center;padding:56px 20px}
+.ctaband h2{color:#fff}
+.ctaband p{opacity:.92;max-width:640px;margin:0 auto 24px}
+.ctaband .btn{background:#fff;color:var(--blue-d);box-shadow:none;margin:6px}
+.ctaband .btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.8)}
+/* pro */
+.pro{background:#fff;border-radius:16px;border:1px solid var(--line);padding:28px;display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+@media(max-width:820px){.pro{grid-template-columns:1fr}}
+.pro ul{margin:8px 0 0;padding-left:18px;font-size:14.5px;color:var(--ink-2)}
+footer{background:#1b2a36;color:#c8d3dc;padding:36px 0;font-size:13px}
+footer .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media(max-width:720px){footer .wrap{grid-template-columns:1fr}}
+footer a{color:#fff}
+.disclaimer{background:#fff3cd;border:1px solid #f0d58a;color:#5c4400;border-radius:10px;padding:12px 16px;font-size:13.5px;text-align:center}
+/* sticky mobile cta */
+.mcta{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);border-top:1px solid var(--line);padding:10px 14px;display:none;z-index:60}
+.mcta a{display:block;text-align:center;background:var(--accent);color:#fff;font-weight:700;border-radius:999px;padding:13px;text-decoration:none}
+@media(max-width:720px){.mcta{display:block}body{padding-bottom:72px}}
+.todo{outline:2px dashed #e8743f;outline-offset:2px;background:#fff7f1}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">トータルHipサポーター<span>TOTAL HIP SUPPORTER</span></a>
+    <nav>
+      <a href="#feature">特長</a><a href="#use">用途</a><a href="#voice">ご利用者の声</a><a href="#size">サイズ</a><a href="#faq">Q&amp;A</a><a href="#pro">医療機関の方へ</a>
+    </nav>
+    <a class="btn" href="https://online.muranaka.co.jp/product/V0300001/" target="_blank" rel="noopener">ご購入はこちら</a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="kicker">整形外科専門医 上野琢郎 が開発｜男女兼用</div>
+      <h1>股関節と骨盤を、<br>「巻く」から<em>「履く」</em>へ。</h1>
+      <p class="sub">股関節の手術前後、産後の骨盤まわり、シニアの歩行サポートに。<br>衣服の下に目立たず、トイレもそのまま。毎日続けられる着圧スパッツ型サポーターです。</p>
+      <div class="cta">
+        <a class="btn" href="#buy">ご購入ページへ</a>
+        <a class="btn sub" href="#use">用途から選ぶ</a>
+      </div>
+      <div class="badges">
+        <span>3段階の圧迫設計</span><span>尿道カテーテル開口部付き</span><span>S〜4L・男女兼用</span><span>2枚組</span>
+      </div>
+    </div>
+    <figure>
+      <img src="images/product_front.jpg" alt="トータルHipサポーター（黒・オーバーパンツ型）の着用イメージ" width="900" height="900">
+      <figcaption>ウエストから太ももまでを包む、オーバーパンツ型。下着の上から着用します。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="wrap" style="margin-top:-20px">
+  <p class="disclaimer">本品は医療機器ではありません。装着時の安定感・動きやすさをサポートする一般のサポーター（衣料品）です。治療や症状の改善を目的とするものではなく、ご使用は医師の指導のもとで行ってください。</p>
+</div>
+
+<!-- ===== PROBLEM ===== -->
+<section>
+  <div class="wrap">
+    <h2><small>WHY</small>こんな経験はありませんか？</h2>
+    <p class="lead">股関節・骨盤まわりのサポートは、これまで「包帯」か「ベルト」が中心でした。どちらも、続けるのが難しいという声を多く聞いてきました。</p>
+    <div class="grid3">
+      <div class="card"><h3>包帯はズレて、巻き直しが手間</h3><p>術後に弾性包帯を巻いても、動くとずれて圧がかかりにくい。看護師さんが何度も巻き直すことになります。</p></div>
+      <div class="card"><h3>骨盤ベルトはトイレのたびに外す</h3><p>座るとずり上がってお腹を圧迫し、位置合わせも難しい。「面倒で続かなかった」という方が多くいます。</p></div>
+      <div class="card"><h3>「いかにも医療用」で敬遠される</h3><p>厚手で衣服の下に使いにくく、外出時に避けられがち。結果として、いちばん動いてほしい場面で使われません。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section class="alt" id="feature">
+  <div class="wrap">
+    <h2><small>FEATURES</small>トータルHipサポーターの3つの特長</h2>
+    <div class="grid3">
+      <div class="card"><div class="num">1</div><h3>必要な場所だけを、3段階で圧迫</h3><p>ウエストから裾にかけて編地を変え、「弱・中・強」の圧力を設計。鼠径部・股関節まわりに強めの圧を加え、骨盤を安定させて動きをサポートします。全周性の構造なので、手術のアプローチ（前方／後方）を問いません。</p></div>
+      <div class="card"><div class="num">2</div><h3>「履く」から、毎日続く</h3><p>衣服の下に目立たず着用でき、トイレもそのまま。メッシュ地で通気性がよく、家事・育児・散歩・リハビリと、日常の動きを妨げません。</p></div>
+      <div class="card"><div class="num">3</div><h3>尿道カテーテル開口部付き</h3><p>股の位置に開口部があるため、カテーテル留置中でも着用できます。看護師の介助で手術直後から使え、慣れればご自身で着脱できます。</p></div>
+    </div>
+
+    <div class="pressure" style="margin-top:40px">
+      <div class="zones">
+        <div class="zone w"><b>弱</b><span><strong>ウエスト・裾</strong>：締め付けすぎず、長時間でも快適に</span></div>
+        <div class="zone m"><b>中</b><span><strong>ヒップ・太もも</strong>：ほどよく包んでブレを抑える</span></div>
+        <div class="zone s"><b>強</b><span><strong>鼠径部・股関節・骨盤</strong>：しっかり圧迫して安定させる</span></div>
+      </div>
+      <div>
+        <h3 style="font-size:20px">包帯では難しい、鼠径部・股関節への「選択的圧迫」</h3>
+        <p style="color:var(--ink-2);font-size:15px;margin:0 0 10px">股関節は体の中心にあり、包帯で均一に圧をかけることがとても難しい部位です。トータルHipサポーターは、編み方そのものを変えることで、必要な場所にだけ強い圧を、それ以外は快適さを優先する設計にしました。</p>
+        <p style="color:var(--ink-2);font-size:15px;margin:0">仙腸関節・恥骨結合の両方に圧がかかる構造のため、産後の骨盤まわりのサポートにも使われています。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== USE CASES ===== -->
+<section id="use">
+  <div class="wrap">
+    <h2><small>FOR WHOM</small>用途から選ぶ</h2>
+    <p class="lead">もともとは人工股関節の手術後のために開発されました。いまは4つの場面で使われています。</p>
+    <div class="grid4">
+      <div class="use">
+        <div class="head">股関節の手術前後</div>
+        <div class="body"><p>人工股関節（THA）・人工骨頭・転子部骨折などの術後に。</p>
+          <ul><li>手術室で麻酔覚醒後から着用可（カテーテル対応）</li><li>術後1週間は洗濯しながら連続使用、その後は活動時に</li><li>防水被覆材と併用できます</li></ul></div>
+        <div class="foot"><a href="../lp-medical/index.html">医療機関向けページ（術後の使い方）→</a></div>
+      </div>
+      <div class="use">
+        <div class="head">産後・骨盤まわり</div>
+        <div class="body"><p>産後の骨盤まわりの不安定感が気になる方に。</p>
+          <ul><li>仙腸関節・恥骨結合の両方を支える圧迫設計</li><li>トイレ動作フリー、育児・家事で動いてもズレにくい</li><li>ベルトが続かなかった方に</li></ul></div>
+        <div class="foot"><a href="#size">サイズの選び方 →</a></div>
+      </div>
+      <div class="use">
+        <div class="head">シニアの歩行サポート</div>
+        <div class="body"><p>「守られている」安心感とともに、散歩やリハビリの時間を。</p>
+          <ul><li>衣服の下に目立たず、外出に向く薄手・メッシュ</li><li>活動するときに履く「アクティブウェア」として</li><li>運動療法との併用をおすすめします</li></ul></div>
+        <div class="foot"><a href="../lp-general/index.html">一般・シニア向けページ →</a></div>
+      </div>
+      <div class="use">
+        <div class="head">介護施設・在宅介護</div>
+        <div class="body"><p>薄手なので、おむつ交換やトイレ介助の妨げになりません。</p>
+          <ul><li>厚手のおむつの上からの着用は想定していません（下着程度の厚さの上から）</li><li>寝ているときのごわつきが少ない</li><li>施設導入のご相談は下記「医療機関・施設の方へ」</li></ul></div>
+        <div class="foot"><a href="../lp-general/index.html#facility">施設の方へ →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMPARE ===== -->
+<section class="cream">
+  <div class="wrap">
+    <h2><small>COMPARISON</small>これまでの方法と、どこが違うのか</h2>
+    <table class="cmp">
+      <thead><tr><th style="width:22%">場面</th><th style="width:39%">これまで（包帯・ベルト・既存サポーター）</th><th>トータルHipサポーター</th></tr></thead>
+      <tbody>
+        <tr><th>股関節の手術後</th><td><span class="x">×</span> 弾性包帯はズレやすく巻き直しが手間。鼠径部に圧がかかりにくい</td><td><span class="o">○</span> カテーテル対応で手術直後から。選択的圧迫で創部まわりを包みながらリハビリへ</td></tr>
+        <tr><th>産後の骨盤まわり</th><td><span class="x">×</span> 骨盤ベルトはトイレのたびに外す。座るとずり上がり、位置合わせも難しい</td><td><span class="o">○</span> 「履く」のでトイレ動作フリー。動いてもズレにくく、仙腸関節と恥骨結合の両方を支える</td></tr>
+        <tr><th>シニアの外出・散歩</th><td><span class="x">×</span> 「医療用」の見た目は敬遠されがち。厚手で衣服の下に使いにくい</td><td><span class="o">○</span> 衣服の下に目立たない。メッシュ地で通気性がよく、続けやすい</td></tr>
+        <tr><th>介護施設</th><td><span class="x">×</span> ヒッププロテクターはパッドが厚く、着脱・排泄介助が大変</td><td><span class="o">○</span> 薄手で介助の妨げになりにくい。活動時の安定感をサポート</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== VOICES ===== -->
+<section id="voice">
+  <div class="wrap">
+    <h2><small>VOICES</small>ご利用者・医療現場の声</h2>
+    <p class="lead">試着アンケート（62名）では、「動きやすい」「歩きやすい」「圧迫されて安心感がある」という声が多く寄せられました。</p>
+    <div class="grid2">
+      <div class="voice"><p>このサポーターをつけると圧迫され、支えられている感じがして、術後も安心して立ち上がりやすかったです。</p><div class="who">70代女性・人工股関節の手術後</div></div>
+      <div class="voice"><p>履きやすくて、術後も快適に過ごせました。退院してからもずっと使っています。</p><div class="who">60代女性・人工股関節の手術後</div></div>
+      <div class="voice"><p>術直後の移動や歩行練習の場面で「安心感がある」という声をよく聞きます。しっかりフィットしつつも着脱させやすく、病棟でも使いやすいです。</p><div class="who">急性期病院・整形外科医</div></div>
+      <div class="voice"><p>患者さんの評価がいいですね。余計な部分は圧迫せず、圧迫してほしいところを圧迫してくれる。薄手で蒸れにくいのも助かります。</p><div class="who">THA執刀医</div></div>
+    </div>
+    <p class="note" style="text-align:center;margin-top:14px">※個人の感想です。装着感・使用感についてのコメントであり、効果・効能を示すものではありません。</p>
+  </div>
+</section>
+
+<!-- ===== STORY ===== -->
+<section class="alt">
+  <div class="wrap">
+    <h2><small>STORY</small>整形外科専門医 上野琢郎が、現場の困りごとから作りました</h2>
+    <div class="story">
+      <div class="box">
+        <p><strong>「包帯は、巻いた直後しか効いていない。」</strong></p>
+        <p>開発者の上野琢郎（整形外科専門医・股関節外科）は、人工股関節の手術を数多く手がける中で、術後の弾性包帯がすぐにズレ、看護師が巻き直しに追われる場面を何度も見てきました。鼠径部という「巻きにくい場所」に、必要な圧を、動いても保てる形で届けたい——そこから、靴下メーカーの編み技術をもつ助野株式会社（富山）の「おたすけのLAB」と共同で開発したのが、このサポーターです。</p>
+        <p>「履く」という形にしたのは、続けてもらうため。トイレで外さなくてよい、衣服の下に隠れる、カテーテルがあっても着けられる。この3つを満たしてはじめて、手術直後から退院後の生活まで、同じ1枚で使い続けられます。</p>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:14px"><h3 style="font-size:17px">研究データを公開しています</h3><p>人工股関節手術（前方アプローチ）後に着用した63例の経過、試着アンケート62名の結果などを、医療従事者向け資料としてまとめています。導入をご検討の医療機関・施設の方は、下記よりご請求ください。</p></div>
+        <div class="card"><h3 style="font-size:17px">「依存」ではなく「自立支援」のために</h3><p>サポーターは、動くときに履く「アクティブウェア」として使い、運動療法と組み合わせることをおすすめしています。休むときは外し、頼りきりにならない使い方を、医師・理学療法士とご相談ください。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SIZE & SPEC ===== -->
+<section id="size">
+  <div class="wrap">
+    <h2><small>SIZE &amp; SPEC</small>サイズ・仕様</h2>
+    <div class="grid2">
+      <div class="sizebox">
+        <h3 style="font-size:18px">サイズ表（男女兼用・ウエスト目安）</h3>
+        <table>
+          <thead><tr><th>サイズ</th><th>S</th><th>M</th><th>L</th><th>LL</th><th>3L</th><th>4L</th></tr></thead>
+          <tbody>
+            <tr><th>ウエスト</th><td>58〜68cm</td><td>68〜78cm</td><td>78〜88cm</td><td>88〜100cm</td><td>100〜112cm</td><td>112〜124cm</td></tr>
+            <tr><th>参考（紳士）</th><td>XS</td><td>S</td><td>M</td><td>L</td><td>LL</td><td>3L</td></tr>
+            <tr><th>参考（婦人）</th><td>S〜M</td><td>M〜L</td><td>L〜LL</td><td>LL〜3L</td><td>3L〜4L</td><td>4L〜</td></tr>
+          </tbody>
+        </table>
+        <div class="callout"><b>迷ったら、1〜2サイズ上を。</b> 圧迫力が強い設計のため、試着アンケートでは「ウエスト」「太もも」がきついと感じる方が多くいました。大きめのサイズでもしっかり圧迫できます。腹囲100cm超の方は4Lをお選びください。実際によく使われているのはLL・3Lです。</div>
+      </div>
+      <div class="sizebox">
+        <h3 style="font-size:18px">仕様</h3>
+        <table>
+          <tbody>
+            <tr><th style="width:38%">形状</th><td>オーバーパンツ型（下着の上から着用）</td></tr>
+            <tr><th>セット</th><td>2枚組（洗い替え用）</td></tr>
+            <tr><th>カラー</th><td>ブラック</td></tr>
+            <tr><th>素材</th><td>ナイロン87%・ポリウレタン13%</td></tr>
+            <tr><th>圧迫設計</th><td>3段階（弱・中・強）／全周性</td></tr>
+            <tr><th>開口部</th><td>尿道カテーテル用開口部あり</td></tr>
+            <tr><th>対象</th><td>男女兼用</td></tr>
+            <tr><th>企画・開発</th><td>助野株式会社 おたすけのLAB（富山県高岡市）／開発・監修：整形外科専門医 上野琢郎</td></tr>
+            <tr><th>原産国</th><td>中国</td></tr>
+            <tr><th>価格</th><td class="todo">2枚組 ¥5,000（税別）※要確認</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW TO ===== -->
+<section class="cream" id="steps">
+  <div class="wrap">
+    <h2><small>HOW TO USE</small>使い方</h2>
+    <div class="grid2">
+      <div>
+        <h3 style="font-size:18px">手術後に使う場合</h3>
+        <div class="steps">
+          <div class="step"><div><b>手術室で、麻酔から覚めたあとに着用</b>防水被覆材の上から着けられます。T字帯の上から、または直履きも可能です。</div></div>
+          <div class="step"><div><b>術後24時間は連続して、その後は活動時を中心に</b>カテーテルは開口部に通して着用します。はじめは看護師が介助し、慣れればご自身で着脱できます。</div></div>
+          <div class="step"><div><b>術後1週間は洗濯しながら連続使用</b>2枚組なので洗い替えができます。その後はご本人の好みで。退院後も長く使い続ける方が多くいます。</div></div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:18px">日常・リハビリで使う場合</h3>
+        <div class="steps">
+          <div class="step"><div><b>動くときに履く「アクティブウェア」として</b>散歩・買い物・リハビリなど、活動するときに着用します。休むとき・就寝時は外します。</div></div>
+          <div class="step"><div><b>運動療法と組み合わせる</b>サポーター単独ではなく、医師・理学療法士がすすめる運動と併用してください。</div></div>
+          <div class="step"><div><b>夏場は無理をしない</b>暑い時期は時間を短くするなど、体調に合わせて調整してください。</div></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-size:18px;margin-top:36px">使用上のご注意</h3>
+    <div class="caution">
+      <ul>
+        <li>医師の指導のもとでご使用ください。</li>
+        <li>次の方は使用前に医師にご相談ください：現在かゆみや発疹を起こしている方／血行障害を起こしたことのある方。</li>
+        <li>サイズが合わないものは使用しないでください。</li>
+        <li>気分が悪くなったり、かゆみ・発疹・腫れなどの異常を感じた場合は、直ちに使用を中止してください。</li>
+        <li>下肢全体あるいは局所的に温度の圧迫が加わり神経麻痺や神経障害が発生する恐れがあるので、こまめに観察し、痛み・しびれなどの違和感があった場合はただちに使用を中止してください。</li>
+        <li>就寝中や休息中など、長時間動かないときの着用は避けてください。</li>
+        <li>鋭利なもので傷がつくと、ほつれ・破れの原因になります。</li>
+        <li>関節内ドレーン留置中の使用は想定していません。抜去後にご使用ください。</li>
+      </ul>
+      <ul>
+        <li><strong>洗濯</strong>：濃色のため、他の衣類と一緒に洗わないでください。</li>
+        <li>洗濯ネットを使用し、蛍光剤の入っていない洗剤で洗ってください。</li>
+        <li>塩素系漂白剤は使用しないでください。</li>
+        <li>すすぎを十分にし、タンブラー乾燥はお避けください。</li>
+        <li>形を整えて日陰で干してください。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="wrap">
+    <h2><small>FAQ</small>よくあるご質問</h2>
+    <details><summary>医療機器ですか？</summary><p>いいえ、医療機器ではありません。装着時の安定感・動きやすさをサポートする一般のサポーター（衣料品）です。治療や症状の改善を目的とするものではありません。</p></details>
+    <details><summary>手術を受けていなくても使えますか？</summary><p>はい。着圧サポーターとして、産後の骨盤まわりや、シニアの方の散歩・リハビリ時などにご使用いただけます。多くの方が術後の急性期を過ぎたあとも、ご自身の判断で着用を続けています。</p></details>
+    <details><summary>いつから、いつまで使えばいいですか？</summary><p>術後に使う場合は、カテーテル開口部があるため手術室で直後から着用できます。術後1週間ほどは洗濯しながらの連続使用をおすすめし、その後はご本人の好みにお任せしています。日常使いの場合は、活動するときを中心に着用してください。</p></details>
+    <details><summary>サイズはどう選べばいいですか？</summary><p>ウエストの実寸を基準に、1〜2サイズ上をおすすめします。圧迫力が強い設計のため、「きつい」と感じる方の多くはウエストと太もも上部のサイズのミスマッチが原因でした。大きめでもしっかり圧迫できます。</p></details>
+    <details><summary>ドレーンが入っている間も使えますか？</summary><p>関節内ドレーン留置中の使用は想定していません。ドレーン抜去後のご使用をおすすめします。ドレーンを使わない手術の場合は、直後から着用できます。</p></details>
+    <details><summary>おむつの上から履けますか？</summary><p>厚手の通常のおむつの上から履く設計にはなっていません。下着程度の厚さのものの上から着用するオーバーパンツです。</p></details>
+    <details><summary>冷やす方法とどちらが効果的ですか？</summary><p>冷やすことと圧迫することは目的が異なるため、併用できます。術後早期の冷却と併せて使われている施設もあります。使い方は担当の医師にご相談ください。</p></details>
+    <details><summary>手術のアプローチ（前方・後方）で使えないことはありますか？</summary><p>全周性の圧迫構造のため、アプローチを問わずご使用いただけます。前方アプローチ（DAA）での使用実績が最も多く、前側方・後方アプローチでも使用されています。</p></details>
+  </div>
+</section>
+
+<!-- ===== BUY ===== -->
+<section class="ctaband" id="buy">
+  <div class="wrap">
+    <h2>ご購入について</h2>
+    <p>トータルHipサポーターは、医療機器販売の村中医療器株式会社、企画元の助野株式会社（おたすけのLAB）公式ストア、楽天市場でお求めいただけます。入院中の方は病棟のスタッフに、施設の方は村中医療器の担当営業へお尋ねください。</p>
+    <a class="btn" href="https://online.muranaka.co.jp/product/V0300001/" target="_blank" rel="noopener">村中医療器オンラインで購入する</a>
+    <a class="btn ghost todo" href="#" target="_blank" rel="noopener">助野 公式ストアで購入する（URL要取得）</a>
+    <a class="btn ghost todo" href="#" target="_blank" rel="noopener">楽天市場で購入する（URL要取得）</a>
+    <p class="note" style="color:#dbe9f4;margin-top:18px">価格・在庫・送料は各ショップのページでご確認ください。サイズ交換の可否はショップにより異なります。</p>
+  </div>
+</section>
+
+<!-- ===== PRO ===== -->
+<section class="alt" id="pro">
+  <div class="wrap">
+    <h2><small>FOR PROFESSIONALS</small>医療機関・介護施設・接骨院の方へ</h2>
+    <div class="pro">
+      <div>
+        <h3 style="font-size:19px">導入資料・サンプルのご案内</h3>
+        <p style="color:var(--ink-2);font-size:15px;margin:0">病棟での運用方法（手術室からの着用手順、カテーテル・防水被覆材との併用、サイズ選定の鉄則）と、人工股関節手術後63例の経過・試着アンケート62名の結果をまとめた医療従事者向け資料をご用意しています。院内売店・外来での取り扱い、施設単位での導入もご相談ください。</p>
+        <ul>
+          <li>導入・運用ガイド（PDF）</li>
+          <li>臨床データ資料（医療従事者限定）</li>
+          <li>サイズ見本・試着用サンプル</li>
+          <li>患者さん向けリーフレット（配布用）</li>
+        </ul>
+      </div>
+      <div style="text-align:center">
+        <a class="btn todo" href="#" style="display:block;margin-bottom:10px">資料を請求する（フォームURL要設定）</a>
+        <a class="btn sub todo" href="mailto:" style="display:block">メールで問い合わせる（宛先要設定）</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <strong style="color:#fff;font-size:15px">トータルHipサポーター</strong><br>
+      企画・開発：助野株式会社 おたすけのLAB（〒933-8527 富山県高岡市上伏間江1番地）<br>
+      販売：村中医療器株式会社 <span class="todo">（住所・連絡先を記載）</span><br>
+      Instagram：<a class="todo" href="#">@total_hip_supporter（アカウント開設後にURL設定）</a>
+    </div>
+    <div>
+      本品は医療機器ではありません。装着感・使用感に関するコメントは個人の感想であり、効果・効能を示すものではありません。<br>
+      ご使用は医師の指導のもとで行い、違和感がある場合は使用を中止して医師にご相談ください。<br>
+      <span class="todo">特定商取引法に基づく表記／プライバシーポリシー（リンク要設定）</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mcta"><a href="https://online.muranaka.co.jp/product/V0300001/" target="_blank" rel="noopener">村中医療器で購入する</a></div>
+
+</body>
+</html>
