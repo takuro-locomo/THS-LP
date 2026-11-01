@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /company/
+
+# AI / 回答エンジン向けのサイト案内
+# https://supporter.ueno-wellness-nexta.com/llms.txt
+
+Sitemap: https://supporter.ueno-wellness-nexta.com/sitemap.xml
