@@ -166,3 +166,35 @@ footer.site nav a{text-decoration:none;font-size:12.5px;color:#aebecb}
 .mcta{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);border-top:1px solid var(--line);padding:10px 14px;display:none;z-index:60}
 .mcta a{display:block;text-align:center;background:var(--accent);color:#fff;font-weight:700;border-radius:999px;padding:13px;text-decoration:none}
 @media(max-width:720px){.mcta{display:block}body{padding-bottom:72px}}
+
+/* ===== mobile readability (2026-11-02) ===== */
+.grid2>*,.grid3>*,.grid4>*,.grid5>*,.pressure>*,.story>*,.pro>*,.hero .wrap>*,.pagehero.withimg .wrap>*{min-width:0}
+img,svg,video{max-width:100%;height:auto}
+.tablewrap{-webkit-overflow-scrolling:touch}
+td{overflow-wrap:anywhere}
+@media(max-width:720px){
+  body{font-size:16.5px;line-height:1.85}
+  .wrap{padding:0 16px}
+  section{padding:44px 0}
+  h2{font-size:23px;line-height:1.45}
+  .lead{text-align:left;font-size:15.5px;margin-bottom:24px}
+  .card{padding:20px 16px}
+  .card h3{font-size:18px}
+  .card p{font-size:15.5px}
+  .sizebox{padding:18px 14px}
+  th,td{padding:10px 8px;font-size:14px}
+  .step{padding:14px;gap:12px}
+  .disclaimer{font-size:13.5px;text-align:left}
+  .btn{padding:15px 24px}
+  .hero{padding:28px 0 40px}
+  .hero p.sub{font-size:16px}
+  .hero p.sub br{display:none}
+  .hero figure{max-width:280px;padding:12px;border-radius:18px}
+  .hero figure img{max-height:230px}
+  .hero figcaption{font-size:12.5px}
+  .pagehero.withimg figure{max-width:340px;margin:0 auto}
+  footer.site{font-size:14px}
+  footer.site nav{gap:0 4px}
+  footer.site nav a{display:inline-block;padding:9px 8px;font-size:14px}
+  .note{font-size:13.5px}
+}
