@@ -198,3 +198,8 @@ td{overflow-wrap:anywhere}
   footer.site nav a{display:inline-block;padding:9px 8px;font-size:14px}
   .note{font-size:13.5px}
 }
+
+/* 支持部位の模式図（2026-11-03） */
+.zonefig{margin:22px auto 0;max-width:720px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}
+.zonefig img{width:100%;height:auto;border-radius:12px;display:block}
+.zonefig figcaption{font-size:12.5px;color:var(--ink-2);margin-top:10px;text-align:center;line-height:1.75}
