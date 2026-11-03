@@ -19,7 +19,7 @@ INK = (42, 48, 56); BLUE = (45, 127, 184); BLUED = (31, 95, 139); SKY = (234, 24
 CREAM = (247, 243, 236); GREY = (110, 116, 122); ORANGE = (232, 116, 63); WHITE = (255, 255, 255)
 W, H = 1080, 1350
 SERIES = "圧迫のサイエンス"
-FOOT = "整形外科専門医 上野琢郎 開発｜トータルHipサポーター"
+FOOT = "整形外科専門医が開発｜トータルHipサポーター"
 NOTE = "※研究の紹介です。トータルHipサポーターの効果を示すものではありません。本品は医療機器ではありません。"
 
 COMMON_PROMPT = """以下の条件でイラストを1枚作ってください。
@@ -121,7 +121,7 @@ EPISODES = {
              "机の上で、文字のない論文を虫めがねで読む手元。"),
         ],
         "refs": [
-            "Ueno T. Thigh swelling after total hip arthroplasty: time course and prevention by an adjustable compression supporter.",
+            "Thigh swelling after total hip arthroplasty: time course and prevention by an adjustable compression supporter.",
             "J Joint Surg Res. 2026;4(3):212-217. doi:10.1016/j.jjoisr.2026.04.002（オープンアクセス）",
         ],
         "note": "※1施設の後ろ向き研究で、効果を保証するものではありません。本品は医療機器ではありません。ご使用は医師の指導のもとで。",

@@ -12,7 +12,7 @@ FB = r"C:\Windows\Fonts\BIZ-UDGothicB.ttc"
 FR = r"C:\Windows\Fonts\BIZ-UDGothicR.ttc"
 INK = (58, 62, 58); BLUE = (45, 127, 184); BLUED = (31, 95, 139); CREAM = (247, 243, 236)
 SKY = (234, 244, 251); ORANGE = (232, 116, 63); GREY = (110, 110, 105); WHITE = (255, 255, 255)
-FOOT = "整形外科専門医 上野琢郎 開発｜トータルHipサポーター"
+FOOT = "整形外科専門医が開発｜トータルHipサポーター"
 W, H = 1080, 1350
 
 

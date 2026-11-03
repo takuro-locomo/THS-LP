@@ -37,5 +37,5 @@ d.rounded_rectangle((560,ly,600,ly+30),radius=4,fill=BLUE); d.text((612,ly-4),"�
 ctext(1150,"手術した側の太ももの太さ（手術前＝100%）　**：群間差 p<0.01",f5,BLUED)
 ctext(1190,"単一施設・後ろ向き比較研究　2週以降は群間差なし",f5,BLUED)
 band=84; d.rectangle((0,H-band,W,H),fill=(238,233,224))
-ctext(H-band+24,"整形外科専門医 上野琢郎 開発｜トータルHipサポーター",f3)
+ctext(H-band+24,"整形外科専門医が開発｜トータルHipサポーター",f3)
 im.save("posts/11_paper_1080x1350.jpg",quality=92); print("ok")

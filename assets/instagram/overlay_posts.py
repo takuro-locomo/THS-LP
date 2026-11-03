@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 FONT_B = r"C:\Windows\Fonts\BIZ-UDGothicB.ttc"
 FONT_R = r"C:\Windows\Fonts\BIZ-UDGothicR.ttc"
 INK = (58, 62, 58); BLUE = (45, 127, 184); BLUED = (31, 95, 139); CREAM = (247, 243, 236); GREIGE = (150, 140, 128)
-FOOT = "整形外科専門医 上野琢郎 開発｜トータルHipサポーター"
+FOOT = "整形外科専門医が開発｜トータルHipサポーター"
 
 POSTS = {
     "01": {"head": ["包帯は、巻いた直後しか", "効いていない。"], "sub": "だから、「履く」にしました。"},

@@ -46,7 +46,7 @@
 ## 5. エビデンス
 
 ### 5-1. 臨床研究（本製品・DAA-THA術後）**【2026-11-01 論文で確定・この節が正】**
-- **書誌**: Ueno T. Thigh swelling after total hip arthroplasty: time course and prevention by an adjustable compression supporter. *Journal of Joint Surgery and Research*. 2026;4(3):212–217. doi:10.1016/j.jjoisr.2026.04.002（オープンアクセス CC BY 4.0・単著＝開発者本人）
+- **書誌**: Thigh swelling after total hip arthroplasty: time course and prevention by an adjustable compression supporter. *Journal of Joint Surgery and Research*. 2026;4(3):212–217. doi:10.1016/j.jjoisr.2026.04.002（オープンアクセス CC BY 4.0・単著＝開発者本人）
 - **研究デザイン**: 単一施設・後ろ向き前後比較（Level III）。前方アプローチ（DAA）初回片側THA 141例＝サポーター群77・対照群64。手術室で閉創直後に装着、**術後5日間**連続着用（脱落0）
 - **結果1（大腿周径・術前比）**: POD1 102.2% vs 104.7%、POD5 103.7% vs 106.9%（いずれも p<0.01、LMM交互作用 p<0.001）。2週・12週は群間差なし。対照群のピークは POD5 106.9±4.1%
 - **結果2（患者報告）**: POD5 疼痛NRS 中央値 4.0 vs 5.0（p<0.01）、主観的腫脹NRS 6.0 vs 7.0（p=0.01）。2週の満足度 8 vs 7（p<0.01）。12週は差なし
