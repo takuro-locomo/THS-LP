@@ -100,6 +100,27 @@ WebP(1200px幅・q82)は `site/images/illust-*.webp`。
 `assets/images/gen20261103/illust-*-wear.png` と `site/images/illust-*-wear.webp` は**この短い丈の版が正**。
 模式図6枚は変更なし。
 
+
+### 2026-11-03 追加：残っていた旧画像を全部置換
+
+用途別LPの差し替えだけでは**トップページと senior / care のギャラリーに旧画像（11/1生成）が残っていた**。
+3枚を追加生成して、サイト内のシーン画像をすべて新イラストに統一した。
+
+| 追加ファイル | 内容 | 使用箇所 |
+|---|---|---|
+| `illust-senior-walk` | 公園の小道をひとりで散歩する高齢女性（斜め後ろ） | /senior/ SCENE「毎日の散歩に」 |
+| `illust-senior-exercise` | 自宅で椅子につかまり片脚を横に上げる体操 | /senior/ SCENE「自宅での体操に」 |
+| `illust-facility-activity` | デイサービスで椅子に座って体操する高齢者とスタッフ | /senior/ SCENE「デイサービスの活動に」／/care/ SCENE |
+
+トップページの用途別カード6枚も、各ページの `illust-*-wear` に1対1で差し替え
+（`/pelvic-pain/` のカードが `scene-postpartum` を流用していた誤りもここで修正）。
+
+**意図的に残した旧画像**: `lp2-donning-6steps`（履かせ方6コマ図）、`lp2-hip-implant-diagram`（人工股関節の模式図）、
+`product_front.jpg`（実製品写真）。いずれもイラスト差し替えの対象ではない。
+
+⚠ 「各LPの絵が最新になっていない」と言われたら、**画像ファイルだけでなく
+`grep -o 'src="/images/[^"]*"'` で全ページの参照先を洗う**こと。今回はこれで取りこぼしが見つかった。
+
 ### 作業上の注意（次回のため）
 
 - ChatGPTの生成画像は **`navigator.clipboard.write` 経由だとOSのペーストボードが更新されず、
