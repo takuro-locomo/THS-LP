@@ -95,7 +95,7 @@ def text_slide(title, rows, out, note=None):
         # wrap txt
         line = ""
         for ch in txt:
-            if tw(d, line + ch, fr) > W - 168 - 80:
+            if tw(d, line + ch, fr) > W - 168 - 80 and ch not in "。、）」":
                 d.text((168, y), line, font=fr, fill=GREY)
                 y += 54
                 line = ch
