@@ -119,8 +119,14 @@
 .pk-sub img{width:100%;height:110px;object-fit:cover}
 .pk-sub b{display:block;padding:12px 14px 2px;font-size:15.5px;color:var(--blue-d)}
 .pk-sub span{display:block;padding:0 14px 14px;font-size:13px;color:var(--ink-2)}
-.pk-pro{text-align:center;margin-top:14px;font-size:14px}
-@media(max-width:820px){.pk-main{grid-template-columns:1fr}.pk-main img{min-height:180px;max-height:220px;order:-1}.pk-sub{grid-template-columns:repeat(2,1fr)}}
+.pk-pro{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+.pk-pro a{display:block;background:#fff;border:2px solid var(--blue);border-radius:14px;padding:16px 20px;text-decoration:none;color:var(--blue-d);transition:.2s}
+.pk-pro a:hover{background:var(--blue);color:#fff;transform:translateY(-2px);box-shadow:0 10px 24px rgba(31,95,139,.18)}
+.pk-pro a:hover span{color:rgba(255,255,255,.92)}
+.pk-pro b{display:block;font-size:16.5px;line-height:1.4}
+.pk-pro b::after{content:"　→"}
+.pk-pro span{display:block;margin-top:4px;font-size:13.5px;color:var(--ink-2)}
+@media(max-width:820px){.pk-main{grid-template-columns:1fr}.pk-main img{min-height:180px;max-height:220px;order:-1}.pk-sub{grid-template-columns:repeat(2,1fr)}.pk-pro{grid-template-columns:1fr}}
 </style>
 <section class="picker" id="choose">
   <div class="wrap">
@@ -149,7 +155,10 @@
       <a href="/sports/"><img src="/images/illust-sports-wear.webp" alt="屋外のグラウンドでランジをする男性のイラスト" width="1200" height="800" loading="lazy"><b>スポーツ・鼠径部</b><span>練習・プレーのときに</span></a>
       <a href="/care/"><img src="/images/illust-care-wear.webp" alt="椅子から立ち上がろうとする高齢者と、手を支える介護職員のイラスト" width="1200" height="800" loading="lazy"><b>介護施設・在宅介護</b><span>おむつ交換の妨げにならない</span></a>
     </div>
-    <p class="pk-pro">医療機関・介護施設の方は <a href="/pro/">導入のご案内</a>／研究の詳細は <a href="/research/">研究データ</a></p>
+    <div class="pk-pro">
+      <a href="/pro/"><b>医療機関・介護施設の方へ</b><span>導入・発注のご案内（注文コード・JAN・発注単位）</span></a>
+      <a href="/research/"><b>研究データ</b><span>術後の太もも周径と痛みの推移（臨床研究）</span></a>
+    </div>
     <p class="note" style="text-align:center;margin-top:6px">※写真・イラストはイメージです</p>
   </div>
 </section>
@@ -443,7 +452,6 @@
         <h3 style="margin-top:10px">販売店</h3>
         <p><strong>個人の方</strong><br><a href="https://item.rakuten.co.jp/muranaka/v0300001/" target="_blank" rel="noopener">村中医療器 楽天市場店</a>（3,300円税込・送料別）</p>
         <p style="margin-top:10px"><strong>医療機関・販売店の方</strong><br><a href="https://online.muranaka.co.jp/product/V0300001/" target="_blank" rel="noopener">村中医療器オンライン</a>（要ログイン・商品コード V0300001）</p>
-        <p style="margin-top:10px"><strong>助野 公式ストア</strong><br>現在準備中です。</p>
       </div>
     </div>
     <p class="note" style="text-align:center;margin-top:18px">開発・監修：整形外科専門医　／　サイト運営：<a href="https://ueno-wellness-nexta.com/" target="_blank" rel="noopener">株式会社Orthoasset</a></p>
